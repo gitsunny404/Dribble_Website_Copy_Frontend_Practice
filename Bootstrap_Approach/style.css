@@ -21,7 +21,7 @@
   }
 
   footer{
-    height: 10vh;
+    height: 100%;
     background-color: var(--whilelilac);
   }
 
@@ -34,15 +34,6 @@
     justify-content: center;
   }
 
-  ul li{
-    list-style-type: none;
-    margin-left: -2rem
-  }
-
-  .design{
-    padding-right: 7rem;
-  }
-
-  .svgclass{
-    padding : 1rem;
+  .copyright{
+    height: 50px;
   }
