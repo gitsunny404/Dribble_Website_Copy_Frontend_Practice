@@ -1,0 +1,48 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --pastelpurple : #C5ADC5;
+    --blue : #B2B5E0;
+    --whilelilac : #F8F8F9;
+    --dark-blue : #111439;
+    font-size : 62.5%;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  header{
+    height: 10vh;
+    background-color: var(--dark-blue);
+  }
+
+  main{
+    height: 100%;
+    background-color: var(--pastelpurple);
+  }
+
+  footer{
+    height: 10vh;
+    background-color: var(--whilelilac);
+  }
+
+  .cards{
+    border-radius: 1rem;
+    min-height: 150px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul li{
+    list-style-type: none;
+    margin-left: -2rem
+  }
+
+  .design{
+    padding-right: 7rem;
+  }
+
+  .svgclass{
+    padding : 1rem;
+  }
