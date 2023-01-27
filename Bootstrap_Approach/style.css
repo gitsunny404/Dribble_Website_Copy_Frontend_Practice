@@ -7,17 +7,11 @@
     --dark-blue : #111439;
     font-size : 62.5%;
     height: 100vh;
-    width: 100vw;
-  }
-
-  header{
-    height: 10vh;
-    background-color: var(--dark-blue);
   }
 
   main{
     height: 100%;
-    background-color: var(--pastelpurple);
+    background-color: var(--whilelilac);
   }
 
   footer{
@@ -37,3 +31,54 @@
   .copyright{
     height: 50px;
   }
+
+  ul li{
+    list-style-type: none;
+    margin-left: -2rem;
+  }
+
+  .myfont{
+    margin-left: 0rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .fonts{
+    margin-left: -2rem;
+  }
+
+  .popular{
+    display: flex;
+  }
+
+  .topbutton{
+    border: 1px solid black;
+    border-radius: .2rem;
+    width: 7rem;
+  }
+
+  .signup{
+    width: 15rem;
+    background-color: #ea4c89;
+    color: white;
+    padding: .4rem 2rem;
+    border-radius: .2rem;
+    font-weight: 500;
+  }
+  .signup2{
+    border: none;
+    background-color: transparent;
+    width: 15rem;
+    padding: .4rem 2rem;
+    border-radius: .2rem;
+  }
+
+  .bottomsunny{
+    padding: 2rem 0 4rem 0;
+  }
+
+  .navlink{
+    font-size: 1.4rem;
+  }
+
+  
